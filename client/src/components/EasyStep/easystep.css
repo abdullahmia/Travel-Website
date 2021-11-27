@@ -1,0 +1,12 @@
+.featured {
+    gap: 20px;
+}
+
+.featured__img {
+    width: 47px;
+    height: 48px;
+}
+
+.featured__detail p {
+    margin: 0;
+}

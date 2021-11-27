@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Volkhov', serif; */
+
+/* 
+====================================================
+                    Custom Css
+====================================================
+*/
+*::after, *::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:active, :hover, :focus {
+    outline: 0 !important;
+    outline-offset: 0;
+}
+
+/* ======= Variables ======= */
+:root {
+    --text-color: #181E4B;
+    --primary-color: #14183E;
+    --secoundary-color: #5E6282;
+    --thid-color: #DFD7F9;
+    --black-color: #212832;
+    --white-color: white;
+    --tomato-color: #DF6951;
+}
+
+h1 {
+    font-family: 'Volkhov', serif;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 89px;
+    color: var(--text-color);
+}
+
+h2 {
+    font-family: 'Volkhov', serif;;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 64px;
+}
+
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 124.5%;
+}
+
+h5 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--secoundary-color);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    color: var(--secoundary-color);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 124.5%;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    color: #686D77;
+    text-transform: capitalize;
+}
+
+.text-sm {
+    font-size: 16px;
+    width: 152px;
+    margin: 0 auto;
+}
+
+.more-btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: var(--white-color);
+    background: #F1A501;
+    box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+    border-radius: 10px;
+    text-transform: capitalize;
+    padding: 9px 35px;
+    transition: all 0.5s ease-in-out
+}
+
+.tomato-btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: var(--white-color);
+    background: tomato;
+    box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+    border-radius: 10px;
+    text-transform: capitalize;
+    padding: 9px 35px;
+    transition: all 0.5s ease-in-out
+}
+
+.tomato-btn:hover{
+    background-color: #F1A501;
+    color: var(--white-color);
+}
+
+.more-btn:hover{
+    background-color: var(--tomato-color);
+    color: var(--white-color);
+}
+
+.wrapper {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.text-content {
+    width: 78%;
+    margin: auto;
+}
+
+.activeSidebar {
+    background-color: tomato;
+    color: white;
+    padding: 10px 5px;
+}
+
+/* my booking table  */
+.table__img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}

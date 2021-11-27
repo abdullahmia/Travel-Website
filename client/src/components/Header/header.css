@@ -1,0 +1,53 @@
+
+/* ============== Header Style ============= */
+.navigation-wrap {
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    transition: all 0.3s ease-out;
+}
+.navbar .navbar-brand img {
+    width: 114.91px;
+    height: 33.99px;
+}
+.navigation-wrap .nav-item {
+    padding: 0 10px;
+}
+
+.navigation-wrap .nav-link {
+    font-size: 17px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #212832 !important;
+}
+
+.navigation-wrap .signup-btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: var(--black-color) !important;
+    border: 1px solid #212832;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 5px 28px !important;
+}
+
+.navigation-wrap .signup-btn:hover {
+    background-color: var(--black-color);
+    color: var(--white-color) !important;
+}
+
+.navigation-wrap.scroll-on {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: var(--white-color);
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.31);
+}
+
+.navbar-toggler:focus {
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+

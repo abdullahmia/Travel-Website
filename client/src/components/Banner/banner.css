@@ -1,0 +1,20 @@
+.hero {
+    background: url('https://i.imgur.com/c6tgEJw.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.hero .wrapper {
+    padding-top: 132px;
+    padding-bottom: 132px;
+}
+
+.hero h4{
+    color: var(--tomato-color);
+}
+
+.hero__btns a i {
+    font-size: 52px;
+    color: var(--tomato-color);
+    margin-right: 10px;
+}
